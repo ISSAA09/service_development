@@ -1,0 +1,1172 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-10-29T09:38:32.896Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "42",
+      "object_repr": "Время: 14:00:00 - 23:55:00, Периодичность: 30 days, 12:00:00, Статус: Создана",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438\", \"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-10-29T09:38:37.811Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "42",
+      "object_repr": "Время: 14:00:00 - 23:55:00, Периодичность: 30 days, 12:00:00, Статус: Создана",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-10-29T09:38:42.777Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "41",
+      "object_repr": "Время: 23:51:00 - 23:58:00, Периодичность: 30 days, 12:00:00, Статус: Создана",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438\", \"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-10-30T07:35:18.494Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-10-30T08:10:33.747Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-10-30T08:10:54.224Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "iska29@inbox.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-10-30T08:55:08.526Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Общий доступ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-10-30T08:56:05.281Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Общий доступ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-10-30T08:56:18.283Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "shafiyev29@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-10-30T08:56:25.894Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "shafiyev70@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-10-30T08:56:30.303Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "iska29@inbox.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-10-30T08:56:33.814Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "admin@admin.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-10-30T08:59:44.927Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "shafiyev29@mail.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-10-30T09:20:08.019Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-10-30T09:30:17.692Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "44",
+      "object_repr": "Время: 14:00:00 - 15:00:00, Периодичность: 1 day, 0:00:00, Статус: Создана",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-10-30T09:30:43.616Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "45",
+      "object_repr": "Время: 14:00:00 - 15:00:00, Периодичность: 30 days, 12:00:00, Статус: Создана",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-10-30T09:38:52.495Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "shafiyev29@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-10-30T09:38:58.715Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "shafiyev70@gmail.com",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-10-30T09:39:02.345Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "shafiyev29@mail.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-10-30T09:39:04.619Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "shafiyev70@gmail.com",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-10-30T09:39:07.282Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "iska29@inbox.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-10-30T09:39:09.751Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "admin@admin.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-10-30T12:57:42.775Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-10-30T12:58:34.762Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Как создавать рассылку от 2023-10-30",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-10-30T13:04:22.765Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "test 1 от 2023-10-30",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-10-30T13:04:31.080Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "test 3 от 2023-10-30",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-10-30T13:05:04.537Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "test 4 от 2023-10-30",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-10-30T14:17:48.157Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-10-31T07:58:48.456Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "test 4 от 2023-10-30",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-10-31T07:58:48.459Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "test 3 от 2023-10-30",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-10-31T07:58:48.460Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "test 1 от 2023-10-30",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-10-31T07:58:48.461Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Как создавать рассылку от 2023-10-30",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-10-31T08:02:11.282Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "7 способов удерживать подписчиков на рассылку и повысить их вовлеченность от 2023-10-31",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-10-31T08:03:22.501Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "10 способов повысить открытие и кликабельность вашей рассылки от 2023-10-31",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-10-31T08:03:54.635Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "\"5 советов по созданию эффективной рассылки для вашего бизнеса\" от 2023-10-31",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-10-31T08:04:52.968Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "5 советов по созданию эффективной рассылки для вашего бизнеса от 2023-10-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\", \"\\u0421\\u043e\\u0434\\u0435\\u0440\\u0436\\u0438\\u043c\\u043e\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-10-31T08:05:12.523Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "10 способов повысить открытие и кликабельность вашей рассылки от 2023-10-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u0434\\u0435\\u0440\\u0436\\u0438\\u043c\\u043e\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-10-31T08:05:17.302Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "7 способов удерживать подписчиков на рассылку и повысить их вовлеченность от 2023-10-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u0434\\u0435\\u0440\\u0436\\u0438\\u043c\\u043e\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add клиент сервиса",
+      "content_type": 6,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change клиент сервиса",
+      "content_type": 6,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete клиент сервиса",
+      "content_type": 6,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view клиент сервиса",
+      "content_type": 6,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add настройка рассылки",
+      "content_type": 7,
+      "codename": "add_mailinglistsettings"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change настройка рассылки",
+      "content_type": 7,
+      "codename": "change_mailinglistsettings"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete настройка рассылки",
+      "content_type": 7,
+      "codename": "delete_mailinglistsettings"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view настройка рассылки",
+      "content_type": 7,
+      "codename": "view_mailinglistsettings"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add лог",
+      "content_type": 8,
+      "codename": "add_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change лог",
+      "content_type": 8,
+      "codename": "change_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete лог",
+      "content_type": 8,
+      "codename": "delete_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view лог",
+      "content_type": 8,
+      "codename": "view_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 9,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 9,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 9,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 9,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can turn off mailing",
+      "content_type": 7,
+      "codename": "change_status"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can block user",
+      "content_type": 9,
+      "codename": "set_active"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can add блог",
+      "content_type": 10,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can change блог",
+      "content_type": 10,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can delete блог",
+      "content_type": 10,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can view блог",
+      "content_type": 10,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Менеджер",
+      "permissions": [
+        39,
+        40,
+        41,
+        42,
+        32,
+        25,
+        37,
+        28,
+        38,
+        36
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "Общий доступ",
+      "permissions": [
+        32,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "service",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "service",
+      "model": "mailinglistsettings"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "service",
+      "model": "log"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ay41e9cpyjnp5ezmuzhhwxbo1dln2e2i",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYpCGjeGJfueoXLsmBZQIvWzQtwdReoCtm9m3tuMtG_TuK95GWcxV3M2p98tET9zaUAeVO7Vci3bMifbFHvQ1Q5V8ut2uH8HE61Tq5WyC0QxRue9w-AZgRGTCkMvqALaAQrE3COyOBc0aOwuPSQF8ObzBfBVN_A:1qxjdd:xwKoORSAwF7QuePb9fjMuvD4ma1my-W33TQvhkGLgvM",
+      "expire_date": "2023-11-14T07:58:13.278Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t50fr2mc9x23d7orqhuj3ve20fhcw9kx",
+    "fields": {
+      "session_data": ".eJxVjMEOwiAQBf-FsyFAkYJH734D2WVBqgaS0p5M_7006UGvM_Pel3lYl-zXFmc_EbsxxS6_DCG8YzkEvaA8Kw-1LPOE_Ej4aRt_VIqf-9n-HWRoua-F0DphsE7aMTlJES1g0uOAV2tMx6YjEkZTQiSpiIJyg4QAxslIgm078E04lQ:1qxjd0:uVbbpigKBbh8E73wQp9r2H0DFcuIhWMh2fZ85bmhn1Y",
+      "expire_date": "2023-11-14T07:57:34.032Z"
+    }
+  },
+  {
+    "model": "service.client",
+    "pk": 12,
+    "fields": {
+      "email": "iska29@inbox.ru",
+      "name": "Исмаил Шафиев",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "service.client",
+    "pk": 17,
+    "fields": {
+      "email": "shafiyev29@gmail.com",
+      "name": "Шафиев Исмаил",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "service.mailinglistsettings",
+    "pk": 50,
+    "fields": {
+      "start_time": "11:15:00",
+      "end_time": "15:00:00",
+      "periodicity": "1 00:00:00",
+      "status": "Отправлено",
+      "subject": "Проверка",
+      "text": "Рассылка",
+      "status_message": "TO_BE_SENT",
+      "owner": 1,
+      "clients": [
+        12,
+        17
+      ]
+    }
+  },
+  {
+    "model": "service.log",
+    "pk": 19,
+    "fields": {
+      "mailing_list": 50,
+      "client": 12,
+      "time": "2023-10-31T08:15:23.322Z",
+      "status": true
+    }
+  },
+  {
+    "model": "service.log",
+    "pk": 20,
+    "fields": {
+      "mailing_list": 50,
+      "client": 17,
+      "time": "2023-10-31T08:15:23.782Z",
+      "status": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$fzOXFroxYww14A5vz094ZG$zd6wMMds+kfQI4mjlmBhbY/wr9hSd1EFR2U5VE1SA44=",
+      "last_login": "2023-10-31T07:58:13.277Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "is_staff": true,
+      "date_joined": "2023-10-27T19:48:05Z",
+      "email": "admin@admin.ru",
+      "code": "0000",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZzS7LTHbwmZntA3wRIkw4u$jQcJKCYN+dHzHN++fk7YdDgCaplxSnYo83ms6Sa16gA=",
+      "last_login": "2023-10-31T07:57:34.057Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2023-10-28T10:49:07Z",
+      "email": "iska29@inbox.ru",
+      "code": "9104",
+      "is_active": true,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$6RB9muX8zHUfxSw1w25THb$RdNObDtNJRYdr7c6Y2tuJ/qX7t+idzt4UeW5tLfdIGY=",
+      "last_login": "2023-10-30T14:14:28.910Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2023-10-29T09:39:14Z",
+      "email": "shafiyev70@gmail.com",
+      "code": "8970",
+      "is_active": true,
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Y7n69s8Ht9Mth314UvYH4j$PB+lWzSl9i9kI+I4VSQpWF3zzpKqYkCWnvHbYrNsyn8=",
+      "last_login": "2023-10-30T09:39:27.541Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2023-10-30T08:23:19Z",
+      "email": "shafiyev29@mail.ru",
+      "code": "1991",
+      "is_active": true,
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "7 способов удерживать подписчиков на рассылку и повысить их вовлеченность",
+      "content": "Узнайте, как удерживать своих подписчиков на рассылку и создать продуктивное взаимодействие с вашей аудиторией.\r\n\r\nВ данной статье мы предоставим вам 7 практических идеи и советов о том, как удерживать подписчиков на вашу рассылку и увеличить их вовлеченность. Это поможет вам создать продуктивное взаимодействие с вашей аудиторией и установить долгосрочные отношения.\r\n\r\n1. Персонализация: Используйте персонализацию, чтобы ваша рассылка была более индивидуальной и привлекательной для подписчиков. Включайте их имена или другую персональную информацию в заголовки или текст рассылки.\r\n2. Качественное содержание: Предоставляйте ценную и полезную информацию, которая будет интересна вашей аудитории. Стремитесь стать источником знаний и экспертизы в своей области.\r\n3. Эксклюзивные предложения: Предлагайте эксклюзивные предложения, скидки или контент, доступный только подписчикам вашей рассылки. Это станет мотивацией для людей подписаться и оставаться на подписке.\r\n4. Регулярность: Определите регулярность отправки рассылок и придерживайтесь ее. Подписчики ожидают получать информацию от вас в определенное время, поэтому не разочаруйте их непредсказуемостью.\r\n5. Интерактивность: Включайте элементы интерактивности в вашу рассылку, такие как опросы, голосования или комментарии. Это позволит подписчикам чувствовать себя вовлеченными и предоставит вам ценную обратную связь.\r\n6. Анализ результата: Регулярно отслеживайте показатели эффективности вашей рассылки, такие как открытие, кликабельность и отписки. Изучайте эти данные и используйте их при принятии решений о дальнейших трансформациях вашей рассылки.\r\n7. Связь с подписчиками: Оставайтесь в контакте со своими подписчиками не только через электронную почту, но и через социальные сети или блог. Будьте открытыми для обратной связи и отвечайте на вопросы и комментарии.",
+      "picture": "",
+      "view_count": 1,
+      "publish_date": "2023-10-31"
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 6,
+    "fields": {
+      "title": "10 способов повысить открытие и кликабельность вашей рассылки",
+      "content": "Узнайте, как сделать вашу рассылку незабываемой и привлекательной для получателей!\r\n\r\nВ данной статье мы расскажем вам о 10 эффективных способах, как сделать вашу рассылку более привлекательной и увеличить открытие и кликабельность. Независимо от отрасли вашего бизнеса, эти советы помогут вам создать рассылку, которая не останется незамеченной.\r\n\r\nОсновная часть: \r\n1. Визуально привлекательный дизайн: Рассылка должна иметь привлекательный и профессиональный дизайн, который привлечет внимание получателей и вызовет интерес.\r\n2. Персонализация: Используйте персонализацию, включая имя получателя в заголовке или тексте рассылки, чтобы создать более индивидуальный и привлекательный опыт.\r\n3. Привлекательный заголовок: Заголовок должен быть кратким, убедительным и вызывающим интерес, чтобы получатель захотел открыть рассылку и прочитать ее полностью.\r\n4. Краткость и четкость: Держите свою рассылку краткой и информативной. Избегайте длинных блоков текста и используйте пункты, чтобы подчеркнуть основные моменты.\r\n5. Заманчивый предложения: Предложите получателям что-то ценное или эксклюзивное, чтобы заинтересовать их и мотивировать на действие.\r\n6. Проверка на ошибки: Перед отправкой рассылки проведите тщательную проверку на грамматические и орфографические ошибки, чтобы убедиться, что ваше сообщение выглядит профессионально.\r\n7. Поддержка мобильных устройств: Убедитесь, что ваша рассылка отображается корректно на мобильных устройствах, поскольку большинство людей сегодня проверяют электронную почту со смартфонов или планшетов.\r\n8. Контактная информация: Включите контактную информацию в конце рассылки, чтобы получатели могли связаться с вами, если у них возникнут вопросы или комментарии.\r\n9. CTAs (Call to Action): Вставьте яркие и привлекательные \"Подробнее\" или \"Купить сейчас\" кнопки, чтобы направить получателей к дальнейшим действиям.\r\n10. Анализируйте и оптимизируйте: Регулярно анализируйте эффективность ваших рассылок и экспериментируйте с разными элементами, чтобы оптимизировать их результаты.",
+      "picture": "",
+      "view_count": 0,
+      "publish_date": "2023-10-31"
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 7,
+    "fields": {
+      "title": "5 советов по созданию эффективной рассылки для вашего бизнеса",
+      "content": "Узнайте, как создать рассылки, которые привлекут внимание вашей аудитории и продвинут ваш бизнес вперед!\r\nВведение: В данной статье мы рассмотрим 5 важных советов по созданию эффективной рассылки для вашего бизнеса. Рассылки могут быть мощным инструментом маркетинга, который помогает удерживать существующих клиентов и привлекать новых. Следуя этим советам, вы сможете создавать рассылки, которые будут востребованы вашей аудиторией.\r\nОсновная часть:\r\n1. Определите цель рассылки: До создания рассылки определите, какую цель вы хотите достичь. Это может быть увеличение продаж, повышение узнаваемости бренда или информирование клиентов о новых продуктах или акциях. Четкая цель поможет вам сосредоточиться на ключевых сообщениях и действиях в рассылке.\r\n2. Целевая аудитория: Знайте, кому адресована ваша рассылка. Определите вашу целевую аудиторию и адаптируйте содержание рассылки к их интересам и потребностям.\r\n3. Содержание и дизайн: Создайте содержание, которое будет интересно и полезно вашей аудитории. Используйте аккуратный дизайн, привлекающий внимание, и разделите информацию на понятные секции, чтобы обеспечить удобство чтения.\r\n4. Отправка и время: Подумайте о моменте отправки рассылки. Какие дни и время могут быть наиболее подходящими для вашей аудитории? Также учтите часовые пояса, если ваша аудитория находится в разных частях мира.\r\n5. Анализ и улучшение: Оценивайте эффективность ваших рассылок, используя аналитику. Изучайте показатели открытия, кликабельности и отписки, чтобы понять, что работает, а что нужно улучшить. Используйте эту информацию для оптимизации ваших будущих рассылок.",
+      "picture": "",
+      "view_count": 1,
+      "publish_date": "2023-10-31"
+    }
+  }
+]

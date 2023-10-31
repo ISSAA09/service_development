@@ -1,0 +1,86 @@
+{% extends 'service/base.html' %}
+{% load catalog_tags %}
+
+{% block content %}
+<div class="row">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Количество рассылок</th>
+            <th scope="col">Количество активных рассылок</th>
+            <th scope="col">Количество уникальных клиентов</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{ all }}</td>
+            <td>{{ active }}</td>
+            <td>{{ clients_count }}</td>
+        </tr>
+    </table>
+</div>
+<hr>
+<hr>
+<a href="{% url 'service:create_list' %}" class="btn btn-primary mb-2">Создать рассылку</a>
+<div class="row">
+    {% for object in object_list %}
+    <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <p class="card-text">Информация о рассылке
+                <p>
+                    <a href="{% url 'service:mail_view' object.pk %}" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    {% if object.start_time %}
+                    Время рассылки: {{ object.start_time }}
+                    {% endif %}</p>
+                <p class="card-text">
+                    {% if object.periodicity %}
+                    Периодичность рассылки: {{ object.periodicity }}
+                    {% endif %}</p>
+                <p class="card-text">
+                    {% if object.status %}
+                    Статус рассылки: {{ object.status }}
+                    {% endif %}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        {% if perms.service.change_status %}
+                            {% if object.status == object.COMPLETED %}
+                                <a href="{% url 'service:change_status' object.pk %}" class="btn btn-sm btn-success">Разблокировать</a>
+                            {% else %}
+                            <a href="{% url 'service:change_status' object.pk %}" class="btn btn-sm btn-danger">Заблокировать</a>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<hr>
+<hr>
+    <div class="row ">
+        <div class="col-5 "></div>
+        <h2> Наш блог</h2>
+    </div>
+    <div class="row">
+                {% for article in blog %}
+                        <div class="col-md-4">
+                          <div class="card mb-4 box-shadow">
+                                <div class="card-header">
+                                    <p class="card-text font-weight-bold"> {{ article.title }}<p>
+                                    <a href="{% url 'blog:view' article.pk %}" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                  {{ article.content|cut_string:100 }}
+                                    </p>
+                                </div>
+                          </div>
+                        </div>
+                {% endfor %}
+    </div>
+{% endblock %}
